@@ -1,0 +1,940 @@
+/* admin */
+
+.adminColumn {
+  font-family: 'Lucida Grande', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+  text-shadow: rgb(155, 155, 155) 0px 0px 10px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+.adminColumn a {
+  color: rgb(0, 155, 255);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.adminColumn a:focus, .adminColumn a:hover, .adminColumn a:focus:hover {
+  color: rgb(0, 155, 255);
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+/* notifications */
+
+.ui-notify { width:350px; position:fixed; top:10px; right:10px; }
+.ui-notify-message { padding:10px; margin-bottom:15px; -webkit-border-radius:8px; -moz-border-radius:8px; -o-border-radius:8px; -ms-border-radius:8px; border-radius:8px }
+.ui-notify-message h1 { font-size:14px; margin:0; padding:0 }
+.ui-notify-message p { margin:3px 0; padding:0; line-height:18px }
+.ui-notify-message:last-child { margin-bottom:0 }
+/* .ui-notify-message-style { background:#000; background:rgba(0,0,0,0.8); -moz-box-shadow: 0 0 6px #000; -webkit-box-shadow: 0 0 6px #000; box-shadow: 0 0 6px #000; } */
+.edit-notification { background: rgb(55, 55, 55); background:rgba(55, 55, 55, 0.8); -webkit-box-shadow: 0 0 6px rgb(55, 55, 55); -moz-box-shadow: 0 0 6px rgb(55, 55, 55); -o-box-shadow: 0 0 6px rgb(55, 55, 55); -ms-box-shadow: 0 0 6px rgb(55, 55, 55); box-shadow: 0 0 6px rgb(55, 55, 55); }
+.add-notification { background:rgb(0, 155, 0); background:rgba(0 , 155, 0, 0.8); -webkit-box-shadow: 0 0 6px rgb(0, 155, 0); -moz-box-shadow: 0 0 6px rgb(0, 155, 0); -o-box-shadow: 0 0 6px rgb(0, 155, 0); -ms-box-shadow: 0 0 6px rgb(0, 155, 0); box-shadow: 0 0 6px rgb(0, 155, 0); }
+.remove-notification { background:rgb(155, 0, 0); background:rgba(155 , 0, 0, 0.8); -webkit-box-shadow: 0 0 6px rgb(155, 0, 0); -moz-box-shadow: 0 0 6px rgb(155, 0, 0); -o-box-shadow: 0 0 6px rgb(155, 0, 0); -ms-box-shadow: 0 0 6px rgb(155, 0, 0); box-shadow: 0 0 6px rgb(155, 0, 0); }
+.ui-notify-message-style h1 { color:#fff; font-weight:bold }
+.ui-notify-message-style p { color:#fff }
+.ui-notify-close { color:#fff; text-decoration:underline }
+.ui-notify-click { cursor:pointer }
+.ui-notify-cross { margin-top:-4px; float:right; cursor:pointer; text-decoration:none; font-size:12px; font-weight:bold; text-shadow:0 1px 1px #fff; padding:2px }
+.ui-notify-cross:hover { color:#ffffab }
+.ui-notify-cross:active { position:relative; top:1px }
+
+/* analytics section */
+
+.analytics {
+/*  text-shadow: rgb(155, 155, 155) 0px 0px 10px;*/
+  margin: 5px 10px 25px 0px;
+}
+
+.analyticsColumn {
+  text-align: left;
+  
+  padding: 0px 10px 0px 10px;
+  margin: 0px 0px 0px 0px;
+}
+
+/* analytics - controls */
+div.analyticsSegments {
+  text-align: center;
+}
+
+.analyticsSegments button {
+  color: rgb(255, 255, 255);
+  background-color: rgb(38, 38, 38);
+  
+  background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255 , 255, 255, .25)), color-stop(1, rgba(255, 255, 255, .11)));
+  background-image: -moz-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, .11));
+  background-image: -o-linear-gradient(top, rgba(255, 255, 255, .25), rgba(255, 255, 255, .11));
+  background-image: -ms-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .25)), to(rgba(255, 255, 255, .11)));
+  background-image: gradient(linear, left top, left bottom, from(rgba(255, 255, 255, .25)), to(rgba(255, 255, 255, .11)));
+  
+  text-rendering: optimizeLegibility;
+/*  text-shadow: 0 1px 1px rgb(38, 38, 38);*/
+  padding: 6px 10px 6px 10px;
+  border: none;
+  border-radius: 0;
+  margin: 0px 0px 25px 0px;
+  
+/*  -webkit-box-shadow: 0 1px 3px rgb(153, 153, 153);
+  -moz-box-shadow: 0 1px 3px rgb(153, 153, 153);
+  -o-box-shadow: 0 1px 3px rgb(153, 153, 153);
+  -ms-box-shadow: 0 1px 3px rgb(153, 153, 153);
+  box-shadow: 0 1px 3px rgb(153, 153, 153);*/
+  
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+
+.analyticsSegments button.first {
+  padding-left: 10px;
+  margin: 10px 0px 10px 10px;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.analyticsSegments button.last {
+  padding-right: 10px;
+  margin: 10px 10px 10px 0px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.analyticsSegments button.selected {
+  background-color: rgb(0, 128, 237);
+}
+
+.analyticsSegments button:hover, .analyticsSegments button:focus, .analyticsSegments button:hover:focus {
+  background-color: rgb(0, 128, 237);
+}
+
+.analyticsSegments button:active {
+  background-color: rgb(0, 103, 212);
+}
+
+.mainChart {
+  text-align:center;
+}
+
+/* analytics - views */
+svg rect.views_background { fill: #555; stroke: #fff; stroke-width: 2; opacity: .2; }
+svg rect.views_foreground { fill: #555; stroke: #fff; stroke-width: 2; opacity: .2; }
+svg rect.views_foreground:hover { fill: #555; stroke: #555; stroke-width: 2; opacity: .0; }
+svg rect.views_dates { fill: #000; text-rendering: optimizeLegibility; font-size: 14ps; font-family: "Monaco"; }
+svg line.views_axis { fill: none; stroke: #777; stroke-width: 2; }
+svg rect.views_total { fill: #0080ed; stroke: #fff; stroke-width: 0; }
+svg rect.views_uniques { fill: #000; opacity: .3; }
+svg text.views_total { fill: #0a0; text-rendering: optimizeLegibility; font-size: 10px; font-family: "Monaco"; }
+svg text.views_uniques { fill: #006400; text-rendering: optimizeLegibility; font-size: 10px; font-family: "Monaco"; }
+
+/* analytics - pages, referers, agents */
+svg rect.pages_background,
+svg rect.referers_background,
+svg rect.agents_background { fill: #555; stroke: #fff; stroke-width: 2; opacity: .3; }
+svg rect.pages_background:hover,
+svg rect.referers_background:hover,
+svg rect.agents_background:hover { fill: #555; stroke: #fff; stroke-width: 2; opacity: .1; }
+svg text.pages_uris,
+svg text.referers_uris,
+svg text.agents_names { fill: #0a0; font-size: 14; font-family: "Monaco"; }
+svg rect.pages_views,
+svg rect.referers_refers,
+svg rect.agents_visits { fill: #0080ED; stroke: #fff; stroke-width: 0; }
+svg text.pages_views,
+svg text.referers_refers,
+svg text.agents_visits { fill: #0a0; font-size: 14; font-family: "Monaco"; }
+
+/* analytics - locations */
+svg.map .oceans { fill: rgb(0, 89, 178); }
+/*
+r  -   0 -  45 -  89 - 133 - 178 - 178 - 178 - 178 - 178 -
+g  - 178 - 178 - 178 - 178 - 178 - 133 -  89 -  45 -   0 -
+b  -   0 -   0 -   0 -   0 -   0 -   0 -   0 -   0 -   0 -
+//country ^ and country:hover v gradient-colors
+rh -   0 -  54 - 109 - 163 - 217 - 217 - 217 - 217 - 217 -
+gh - 217 - 217 - 217 - 217 - 217 - 163 - 109 -  54 -   0 -
+bh -   0 -   0 -   0 -   0 -   0 -   0 -   0 -   0 -   0 -
+*/
+svg.map .rare_country { fill: rgb(45, 178, 0); stroke: #fff; stroke-width: .1; }
+svg.map .rare_country:hover { fill: rgb(54, 217, 0); }
+svg.map .normal_country { fill: rgb(133, 178, 0); stroke: #fff; stroke-width: .1; }
+svg.map .normal_country:hover { fill: rgb(163, 217, 0); }
+svg.map .modest_country { fill: rgb(178, 178, 0); stroke: #fff; stroke-width: .1; }
+svg.map .modest_country:hover { fill: rgb(217, 217, 0); }
+svg.map .good_country { fill: rgb(178, 89, 0); stroke: #fff; stroke-width: .1; }
+svg.map .good_country:hover { fill: rgb(217, 109, 0); }
+svg.map .high_country { fill: rgb(178, 0, 0); stroke: #fff; stroke-width: .1; }
+svg.map .high_country:hover { fill: rgb(217, 0, 0); }
+
+svg.map .country { fill: rgb(0, 0, 0); stroke: #fff; stroke-width: .1; }
+svg.map .country:hover { fill: rgb(55, 55, 55); }
+
+.map g .compass { background: #fff; color: #f00; }
+.compass .back { fill: #eee; fill-opacity: .8; }
+.compass .fore { stroke: #999; stroke-width: 1.5px; }
+.compass rect.back.fore { fill: #999; fill-opacity: .3; stroke: #eee; stroke-width: 1px; shape-rendering: crispEdges; }
+.compass .direction { fill: none; }
+.compass .chevron { fill: none; stroke: #999; stroke-width: 5px; }
+.compass .zoom .chevron { stroke-width: 4px; }
+.compass .active .chevron, .compass .chevron.active { stroke: #fff; }
+.compass.active .active .direction { fill: #999; }
+
+/* blog section */
+
+.postTitle {
+  background: none;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  
+  font-family: Helvetica;
+  font-weight: bold;
+  line-height: 1.7em;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 5px 5px 5px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.postTitle:focus, .postTitle:hover, .postTitle:focus:hover {
+  background: rgb(255, 200, 155);
+}
+
+.postDate {
+  padding: 5px;
+}
+
+.removePost {
+  background: rgb(150, 150, 150);
+  color: rgb(255, 255, 255);
+  
+  line-height: 1.7em;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 5px 5px 5px;
+  
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.removePost:focus, .removePost:hover, .removePost:focus:hover {
+  background: rgb(200, 0, 0);
+}
+
+.postBody {
+  background: none;
+  color: rgb(0, 0, 0);
+  
+  font-family: Helvetica;
+  border-radius: 4px 4px 4px 4px;
+  padding: 10px 5px 20px 5px;
+  margin: 5px 0px 5px 0px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.postBody:focus, .postBody:hover, .postBody:focus:hover {
+  background: rgb(255, 200, 155);
+}
+
+.removeNewPostCategory, .removePostCategory, .addPostCategory, .addNewPostCategory {
+  background: rgb(150, 150, 150);
+  color: rgb(255, 255, 255);
+  
+  padding: 2px 5px 2px 5px;
+  border-radius: 4px 4px 4px 4px;
+  
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.removeNewPostCategory:hover, .removeNewPostCategory:focus, .removeNewPostCategory:focus:hover,
+.removePostCategory:hover, .removePostCategory:focus, .removePostCategory:focus:hover {
+  background: rgb(200, 0, 0);
+}
+
+.addCategory:hover, .addCategory:focus, .addCategory:focus:hover,
+.addPostCategory:hover, .addPostCategory:focus, .addPostCategory:focus:hover,
+.addNewPostCategory:hover, .addNewPostCategory:focus, .addNewPostCategory:focus:hover {
+  background: rgb(0, 200, 0);
+}
+
+.aboutBody {
+  background: none;
+  color: rgb(0, 0, 0);
+  
+  padding: 2px 5px 2px 5px;
+  border-radius: 4px 4px 4px 4px;
+  
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background-color, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background-color, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.aboutBody:hover, .aboutBody:focus, .aboutBody:focus:hover {
+  background: rgb(255, 200, 155);
+}
+
+span.categoryItem {
+  font-size: 14px;
+  line-height: 1.5em;
+  
+  margin: 1px;
+  
+  display: inline-block;
+}
+
+.categoryTitle, span.postCategory {
+  background: rgb(150, 150, 150);
+  color: rgb(255, 255, 255);
+  
+  padding: 2px 5px 2px 5px;
+  
+  border-radius: 4px 0px 0px 4px;
+  
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  
+  text-shadow: none;
+  cursor: text;
+}
+
+.categoryTitle:hover, .categoryTitle:focus, .categoryTitle:focus:hover {
+  background: rgb(255, 200, 155);
+}
+
+.removeCategory {
+  background: rgb(150, 150, 150);
+  color: rgb(255, 0, 0);
+  
+  padding: 2px 5px 2px 5px;
+  
+  border-radius: 0px 4px 4px 0px;
+  
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background-color, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background-color, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  
+  text-shadow: none;
+  cursor: pointer;
+}
+
+.removeCategory:hover, .removeCategory:focus, .removeCategory:focus:hover {
+  background: rgb(200, 0, 0);
+  color: rgb(255, 255, 255);
+}
+
+.addCategory {
+  background: rgb(155, 155, 155);
+  color: rgb(255, 255, 255);
+  
+  padding: 2px 5px 2px 5px;
+  border-radius: 4px 4px 4px 4px;
+  
+  -webkit-transition-property: background-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+  
+  text-shadow: none;
+  cursor: pointer;
+}
+
+/* blog section - editables */
+
+.addNewPost {
+  display: block;
+  background: rgb(242, 242, 242);
+  color: rgb(0, 128, 237);
+  width: 530px;
+  font-size: 24px;
+  
+  margin: 5px 0px 10px 0px;
+  padding: 5px 5px 5px 5px;
+  font-weight: bold;
+  text-align: center;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  text-shadow: rgb(200, 200, 200) 0px 0px 5px,
+               rgb(242, 242, 242) 0px 0px 10px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.newPost {
+  display: none;
+  padding: 5px 5px 20px 5px;
+}
+
+.newPostTitle {
+  background: rgb(242, 242, 242);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  padding: 5px;
+  width: 530px;
+  
+  -webkit-transition-property: background-color, border-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color, border-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color, border-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color, border-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.newPostBody {
+  background-color: rgb(242, 242, 242);
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  padding: 5px;
+  width: 530px;
+  
+  resize: vertical;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+  
+  -webkit-transition-property: background-color, border-color;
+  -webkit-transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-in-out;
+  
+  -moz-transition-property: background-color, border-color;
+  -moz-transition-duration: 0.3s;
+  -moz-transition-timing-function: ease-in-out;
+  
+  -o-transition-property: background-color, border-color;
+  -o-transition-duration: 0.3s;
+  -o-transition-timing-function: ease-in-out;
+  
+  -ms-transition-property: background-color, border-color;
+  -ms-transition-duration: 0.3s;
+  -ms-transition-timing-function: ease-in-out;
+  
+  transition-property: background-color, border-color;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-in-out;
+}
+.newPostTitle:hover, .newPostTitle:focus, .newPostTitle:focus:hover,
+.newPostBody:hover, .newPostBody:focus, .newPostBody:focus:hover { background-color: rgb(255, 255, 255); border-color: rgb(0, 128, 237); }
+
+.newPostSubmit, .newPostCancel {
+  background: rgb(242, 242, 242);
+  color: rgb(0, 128, 237);
+  width: 268px;
+  height: 30;
+  font-size: 24px;
+  
+  padding: 5px;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  text-shadow: rgb(200, 200, 200) 0px 0px 5px,
+               rgb(242, 242, 242) 0px 0px 10px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+.addNewPost:hover, .addNewPost:focus, .addNewPost:focus:hover,
+.newPostSubmit:hover, .newPostSubmit:focus, .newPostSubmit:focus:hover,
+.newPostCancel:hover, .newPostCancel:focus, .newPostCancel:focus:hover {
+  background: rgb(0, 128, 237);
+  color: rgb(255, 255, 255);
+}
+
+.addNewPostCategory form, .postTitle form, .addPostCategory form, .categoryTitle form, .addCategory form { display: inline; }
+.addNewPostCategory input, .postTitle input, .addPostCategory input, .categoryTitle input, .addCategory input { border: solid 1px rgb(200, 200, 200); border-radius: 4px; padding: 2px; }
+.addNewPostCategory button, .postTitle button, .postBody button, .addPostCategory button, .aboutBody button, .categoryTitle button, .addCategory button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 128, 237);
+  
+  padding: 2px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  text-shadow: rgb(200, 200, 200) 0px 0px 5px,
+               rgb(255, 255, 255) 0px 0px 10px;
+  font-weight: bold;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background-color, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background-color, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+.postTitle input {
+  width: 460px;
+}
+
+.postBody textarea, .aboutBody textarea {
+  display: inherit;
+  width: 530px;
+  
+  padding: 0px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  resize: vertical;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+}
+.aboutBody textarea {
+  width: 94%;
+}
+
+.addNewPostCategory button:hover, .addNewPostCategory button:focus, .addNewPostCategory button:focus:hover,
+.postTitle button:hover, .postTitle button:focus, .postTitle button:focus:hover,
+.postBody button:hover, .postBody button:focus, .postBody button:focus:hover,
+.addPostCategory button:hover, .addPostCategory button:focus, .addPostCategory button:focus:hover,
+.aboutBody button:hover, .aboutBody button:focus, .aboutBody button:focus:hover,
+.categoryTitle button:hover, .categoryTitle button:focus, .categoryTitle button:focus:hover,
+.addCategory button:hover, .addCategory button:focus, .addCategory button:focus:hover {
+  background: rgb(0, 128, 237);
+  color: rgb(255, 255, 255);
+}
+
+/* designs section */
+
+.designsColumn span img {
+  display: inherit;
+}
+
+.designUpload input[type=file], .designUpload input[type=submit] {
+  background: rgb(242, 242, 242);
+  color: rgb(0, 128, 237);
+  width: 650px;
+  font-size: 24px;
+  
+  margin: 10px 10px 10px 10px;
+  padding: 5px 5px 5px 5px;
+  text-align: center;
+  border: 1px solid rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  text-shadow: rgb(200, 200, 200) 0px 0px 5px,
+               rgb(242, 242, 242) 0px 0px 10px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+
+.designUpload input[type=file]:hover, .designUpload input[type=file]:focus, .designUpload input[type=file]:focus:hover,
+.designUpload input[type=submit]:hover, .designUpload input[type=submit]:focus, .designUpload input[type=submit]:focus:hover {
+  background: rgb(0, 128, 237);
+  color: rgb(255, 255, 255);
+}
+.designUpload input[type=submit] {
+  width: 50px;
+}
+
+span .design {
+  position: relative;
+}
+
+div .removeDesign {
+  height: 130px;
+  
+  margin: 10px 0px 0px 10px;
+  border-radius: 5px;
+  
+  position: absolute;
+  
+  -webkit-transition-property: background-color, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background-color, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background-color, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  
+  cursor: pointer;
+}
+
+div .removeDesign:hover, div .removeDesign:focus, div .removeDesign:hover:focus {
+  background: rgba(0, 0, 0, .5);
+  color: rgba(0, 0, 0, .5);
+  height: 130px;
+  
+  margin: 10px 0px 0px 10px;
+  border-radius: 5px;
+  
+  position: absolute;
+  
+  background-image: url(/images/remove-design.png);
+  background-repeat: no-repeat;
+  background-size: 48px 48px;
+  background-position: center center;
+}
+
+/* contact section */
+
+
+/* contact section - editables */
+
+.contact p, span.title, span.name, span.address {
+  background: none;
+  color: rgb(0, 0, 0);
+  width: 100%;
+  
+  font-family: Helvetica;
+  line-height: 1.7em;
+  border-radius: 4px 4px 4px 4px;
+  padding: 5px 5px 5px 5px;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+.contact p:focus, .contact p:hover, .contact p:focus:hover,
+span.title:focus, span.title:hover, span.title:focus:hover,
+span.name:focus, span.name:hover, span.name:focus:hover,
+span.address:focus, span.address:hover, span.address:focus:hover {
+  background: rgb(255, 200, 155);
+}
+
+.contact form, .title form, .name form, .address form { display: inline; }
+.title input, .name input, .address input { border: solid 1px rgb(200, 200, 200); border-radius: 4px; padding: 2px; }
+.contact textarea {
+  display: inherit;
+  width: 530px;
+  
+  padding: 0px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  resize: vertical;
+  -webkit-box-orient: vertical;
+  -moz-box-orient: vertical;
+  -o-box-orient: vertical;
+  -ms-box-orient: vertical;
+  box-orient: vertical;
+}
+.contact textarea {
+  width: 94%;
+}
+
+.contact button, .title button, .name button, .address button {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 128, 237);
+  
+  padding: 2px;
+  border: solid 1px rgb(200, 200, 200);
+  border-radius: 4px;
+  
+  text-shadow: rgb(200, 200, 200) 0px 0px 5px,
+               rgb(255, 255, 255) 0px 0px 10px;
+  font-weight: bold;
+  
+  -webkit-transition-property: background, color;
+  -webkit-transition-duration: 0.3s, 0.3s;
+  -webkit-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -moz-transition-property: background-color, color;
+  -moz-transition-duration: 0.3s, 0.3s;
+  -moz-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -o-transition-property: background-color, color;
+  -o-transition-duration: 0.3s, 0.3s;
+  -o-transition-timing-function: ease-in-out, ease-in-out;
+  
+  -ms-transition-property: background-color, color;
+  -ms-transition-duration: 0.3s, 0.3s;
+  -ms-transition-timing-function: ease-in-out, ease-in-out;
+  
+  transition-property: background-color, color;
+  transition-duration: 0.3s, 0.3s;
+  transition-timing-function: ease-in-out, ease-in-out;
+}
+.contact button:hover, .contact button:focus, .contact button:focus:hover,
+.title button:hover, .title button:focus, .title button:focus:hover,
+.name button:hover, .name button:focus, .name button:focus:hover,
+.address button:hover, .address button:focus, .address button:focus:hover {
+  background: rgb(0, 128, 237);
+  color: rgb(255, 255, 255);
+}
+
+/* all */
+
+.more {
+  text-align: -webkit-center;
+  text-align: -moz-center;
+  text-align: -o-center;
+  text-align: -ms-center;
+  
+  vertical-align: middle;
+  
+  padding: 10px;
+  margin: 50px 0px 10px 0px;
+}
+
+.more img {
+  display: none;
+  width: 32px;
+  height: 32px;
+}
+
+
+
