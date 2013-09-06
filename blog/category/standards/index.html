@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width">
+    <meta content="text/html; charset=UTF-8" http-equiv="content-type">
+    <meta content="MrmacHD" name="author">
+    <meta content="Applications, Designs and Experiments of MrmacHD" name="description">
+    <meta content="iOS Applications, OS X Applications, Designs, Experiments" name="keywords">
+    <meta content="&#x00a9; 2013 MrmacHD" name="copyright">
+    <link href="/images/favicon.png" type="image/png" rel="icon">
+    <link href="/images/logo.png" type="image/png" rel="apple-touch-icon">
+    <link rel="alternate" type="application/rss+xml" title="MrmacHD > blog" href="/rss.xml">
+    <title>MrmacHD &gt; blog &gt; category &gt; standards</title>
+    <!--Library Imports-->
+    <script type="text/javascript" src="/js/jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="/js/animation.js"></script>
+    <script type="text/javascript" src="/js/applications.js"></script>
+    <script type="text/javascript" src="/js/experiments.js"></script>
+    <!--Stylesheet Imports-->
+    <link type="text/css" rel="stylesheet" href="/css/syntax.css">
+    <link type="text/css" rel="stylesheet" href="/css/main.css">
+    <link type="text/css" media="screen, projection" rel="stylesheet" href="/css/blueprint/screen.css">
+    <link type="text/css" media="print" rel="stylesheet" href="/css/blueprint/print.css">
+    <link type="text/css" rel="stylesheet" href="/css/global.css">
+    <link type="text/css" rel="stylesheet" href="/css/navigation.css">
+  </head>
+  <body>
+    <a name="top"></a>
+    <div class="container">
+      <div class="header">
+        <div class="column span-4 sloganLeft">
+          <h3></h3>
+        </div>
+        <div class="column span-16">
+          <img class="logo" src="/images/logo.png" alt="M" /><h1 class="title">rmacHD</h1>
+        </div>
+        <div class="column span-4 last sloganRight">
+          <h3></h3>
+        </div>
+        <hr class="column span-24 separator">
+      </div>
+      <div class="column span-4 sidebar">
+        <ul class="menu">
+          <li class="menuItem"><a href="/">back</a></li>
+        </ul>
+      </div>
+      <div class="column span-20 last">
+        <div class="column span-20 mainColumn">
+          
+          <div class="post">
+            <h3><a href="/blog/post/Port_to_HTML5">Port to HTML5</a></h3>
+            <div class="postDate">30 May 2012</div>
+            <div class="postBody"><p>I have completed a port of the entire site from XHTML4 to HTML5. An important problem I had with XHTML4 was the additional <span class="code">xmlns=”http://www.w3.org/1999/xhtml”</span> attribute it was adding to elements of every template, page and field of the site. Thankfully, HTML5 is freeing me from all that.</p>
+<p>However, HTML5 has caused some issues at the beginning. It didn't like my single empty elements, such as <span class="code">&lt;div class="blah"/&gt;</span> or <span class="code">&lt;span id="dah"/&gt;</span>. Yes, I miss the XML niceties of XHTML4. "Don't worry, XHTML5 is on its way!" I hear you saying. But, HTML5 has its own advantages too. A &lt;br&gt; without a slash is so comfortable. I have seen enough of HTML5 to adapt and stick to it for the foreseeable future. That is, until HTML6 comes along.</p>
+</div>
+            <div>
+              <div class="column span-12 postCategory">
+              <!-- <a class='category' href='/blog/category/site/'>site</a>, <a class='category' href='/blog/category/standards/'>standards</a> -->
+              
+                <a href="/blog/category/site/">site</a>
+              
+                <a href="/blog/category/standards/">standards</a>
+              
+              <!--  -->
+              </div>
+            </div>
+            <div class="linkToTop"><a href="#top">↑</a></div>
+          </div>
+          
+          <div class="post">
+            <h3><a href="/blog/post/Web_Browser">Web Browser</a></h3>
+            <div class="postDate">18 May 2012</div>
+            <div class="postBody"><p>There are abundant choices for browsing the web these days. It has come to my attention that I should perhaps prepare my site to look and feel pleasant regardless of the visitor's web browser. I usually use <a href="http://www.apple.com/safari/">Safari</a> and sometimes <a href="http://www.mozilla.org/en-US/firefox/fx/">Firefox</a>, but to be comprehensive I tested <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">Internet Explorer 9.0.8112.16421</a>, <a href="https://tools.google.com/dlpage/chromesxs">Chrome 180.1.1025.40 canary</a> and <a href="http://www.opera.com/browser/">Opera 11.63</a> for good measures too.</p>
+<p>I knew in advance that the site is standards compliant and should look well and work properly on all major platform's web browsers. The result of my tests revealed that Internet Explorer sadly renders the site worst. Then comes Opera followed closely by Firefox. Chrome (canary) performs comparable to Safari, which is unsurprisingly the best. It should be noted that I develop and test the site using Safari and the fact that it came on top was expected. These empirical results are based completely on how much of the <a href="http://www.w3.org/">W3</a> standards are successfully implemented by each of the above mentioned web browsers or rather their respective vendors.</p>
+<p>As you may know, Safari and Chrome share the same engine called <a href="http://www.webkit.org/">WebKit</a>, which was developed and open sourced by Apple. WebKit is in active development. Firefox's engine is called Gecko, which contains the remnants of the project started at <a href="http://en.wikipedia.org/wiki/Netscape_(web_browser)">Netscape</a> in the late 90's. Internet Explorer has a proprietary engine developed internally by Microsoft and Opera's engine is called Presto. The engines I have mentioned so far refer to the underlaying libraries and frameworks that are responsible for laying out the DOM elements of a web page. Each of these browsers comes with its own respective JavaScript engine, but for the time being I'm not going to delve deeper into those details.</p>
+<p>The best web browsers right now are WebKit based browsers (like Safari or Chrome), simply because you'll view the sites the exact way their developers have intended you to experience them. There certainly are obvious advantageous and disadvantageous to using any specific web browser, which ultimately boils down to an individual's taste and opinion. I emphasise on using a WebKit browser, because whilst they are the most standards compliant of the bunch, they also provide the most features one could seek. For instance, the elastic scrolling specific to Safari on OS X and iOS is only available on Chrome. You might argue that is not part of W3's standards for a web browser to have such feature. True, but wouldn't you like your web browser to incorporate that feature too? In this very site, I have made extensive use of dynamically loaded lists of posts and designs for saving bandwidth and providing a richer user experience. This works very much like Twitter's or Facebook's endless stream of content, where by reaching the bottom of the page a command is automatically initiated to append more content to that page. Here, you won't be able to see more than the initial posts or designs loaded, if:</p>
+<ol>
+  <li>your screen resolution is high enough that such initial load of data won't enable the vertical scrollbars on your web browser, and</li>
+  <li>your web browser lacks the aforementioned elastic scrolling feature.</li>
+</ol>
+<p>Other sites rectify this situation by either:</p>
+<ol class="alphabetical">
+  <li>load an initial list of content that is long enough that guarantees visitor's web browser to enable the vertical scrollbars, or</li>
+  <li>instead of loading more content dynamically via a scroll that reaches the end of the page, rely on a 'more' button or link that visitors are forced to click if they want to see more.</li>
+</ol>
+<p>These are unintuitive ways of addressing this issue. I could provide a 'more' button or link for web browsers that lack these features, but I decided to avoid that and write a post to perhaps convince many of you that still use other web browsers why you should try a WebKit based browser. In the not so distant future, I will come back to this topic of web browsers and discuss the various JavaScript engines in more details.</p>
+</div>
+            <div>
+              <div class="column span-12 postCategory">
+              <!-- <a class='category' href='/blog/category/site/'>site</a>, <a class='category' href='/blog/category/standards/'>standards</a>, <a class='category' href='/blog/category/web/'>web</a> -->
+              
+                <a href="/blog/category/site/">site</a>
+              
+                <a href="/blog/category/standards/">standards</a>
+              
+                <a href="/blog/category/web/">web</a>
+              
+              <!--  -->
+              </div>
+            </div>
+            <div class="linkToTop"><a href="#top">↑</a></div>
+          </div>
+          
+        </div>
+      </div>
+      <div class="column span-24 last copyright" title="est 2003"><hr class="column span-24 separator"><br>© 2013 MrmacHD</div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+  version="2.0"
+  xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>MrmacHD &gt; blog</title>
+    <link>mrmachd.ir</link>
+    <description>RSS feed for MrmacHD &gt; blog</description>
+    <pubDate>Tue, 21 May 2013 13:00:00 +0430</pubDate>
+    <item>
+      <title>Greetings</title>
+      <link>mrmachd.ir/blog/post/Greetings</link>
+      <description>&lt;p&gt;Hi and welcome to my new site. This is my latest web development project and I hope to keep it up and running as long as I'm alive. It's a good way of keeping a journal as well as sharing thoughts with other likeminded people.&lt;/p&gt;
+&lt;p&gt;In the &lt;a href=&quot;http://mrmachd.ir/&quot;&gt;blog&lt;/a&gt; section of the site, I will post my thoughts on a daily basis. Other sections of the site, such as &lt;a href=&quot;/applications/&quot;&gt;applications&lt;/a&gt;, &lt;a href=&quot;/designs.html&quot;&gt;designs&lt;/a&gt; and &lt;a href=&quot;/experiments.html&quot;&gt;experiments&lt;/a&gt; will be updated too, but not as frequently as the blog.&lt;/p&gt;
+&lt;p&gt;Hope you enjoy your stay and come back soon. :)&lt;/p&gt;
+
+
+</description>
+      <pubDate>Mon, 26 Mar 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-03-26T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Accelerometer for iOS</title>
+      <link>mrmachd.ir/blog/post/Accelerometer_for_iOS</link>
+      <description>&lt;p&gt;I have published my first iOS application &lt;a href=&quot;http://itunes.apple.com/gb/app/accelerometer-for-ios/id514052951?mt=8&quot;&gt;Accelerometer for iOS&lt;/a&gt;. It's development has been completed many months ago, but I never came around publishing it to the App Store. You can find more information as well as some tips and tricks about the application on its &lt;a href=&quot;/applications/ios/accelerometer.html&quot;&gt;dedicated site&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Fortunately, iOS devices are very capable in terms of raw and graphical processing power and developing for them resembles desktop application development. Hence, more functionalities are available in Accelerometer for iOS than it's older sister app developed for Symbian devices. Despite lack of processing power, Symbian has always been one of the most efficient mobile operating systems that could run on devices with lower hardware specifications, therefore I might bring some of the new features to the Symbian version of Accelerometer.&lt;/p&gt;
+&lt;p&gt;I made especial effort in creating the custom UI elements to be on par with other well known apps available on the app store. Although Accelerometer is a simple utility application, I think people care about good looking UI as much as certain functionalities of an application.&lt;/p&gt;
+&lt;p&gt;You can get the app from the app store. Don't forget to write a review and rate it too!&lt;/p&gt;
+
+
+</description>
+      <pubDate>Thu, 05 Apr 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-04-05T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Accelerometer updated for all Symbian^3 devices</title>
+      <link>mrmachd.ir/blog/post/Accelerometer_updated_for_all_Symbian%5E3_devices</link>
+      <description>&lt;p&gt;This update was long overdue. As I hinted in an earlier &lt;a href=&quot;/blog/post/Accelerometer_for_iOS/&quot;&gt;post&lt;/a&gt;, since I published the iOS version of Accelerometer, I was thinking about bringing some of its features back to the Symbian version of the application.&lt;/p&gt;
+&lt;p&gt;Now, this update comes only to Symbian^3 devices. Unfortunately, I won't be updating the S60 5th Edition of Accelerometer for the time being. However, I might write more about it specifically at a later date.&lt;/p&gt;
+&lt;p&gt;You can find more information as well as some tips and tricks about the application on its &lt;a href=&quot;/applications/symbian/accelerometer.html&quot;&gt;dedicated site&lt;/a&gt;. The ability to record acceleration values, a very useful new feature that was suggested by one of the reviewers has been added too. Among the new features is a new Symbian Belle designed icon. Obviously, the entire UI has been redesigned from the ground up too. I am particularly happy that I could cover such a wide range of devices in a single version of the application. Although version 1.0.0 of Accelerometer had the same characteristics, the UI looked particularly out of date on Symbian Belle.&lt;/p&gt;
+&lt;p&gt;You can update or buy the Accelerometer for any Symbian^3 device from the &lt;a href=&quot;http://store.ovi.com/content/148235&quot;&gt;Ovi Store&lt;/a&gt;. Don't forget to rate and review it!&lt;/p&gt;
+
+
+</description>
+      <pubDate>Fri, 20 Apr 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-04-20T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Designs</title>
+      <link>mrmachd.ir/blog/post/Designs</link>
+      <description>&lt;p&gt;After a while of having &quot;no designs available yet.&quot; in the &lt;a href=&quot;/designs.html&quot;&gt;designs&lt;/a&gt; section of the site, I decided to fix that by displaying some of my recent 2D and 3D CGIs (computer generated imagery).&lt;/p&gt;
+&lt;p&gt;They were originally downloaded to the user's machine, each time the page was loaded. Then, I changed it to be streamed down to the user's browser, which allows me to use less memory on the server side. Now, I might add some additional interactivity and caching mechanism to reduce page load times and perhaps save some bandwidth.&lt;/p&gt;
+&lt;p&gt;Hope you enjoy the new designs. I will add more soon, so stay tuned.&lt;/p&gt;
+
+
+</description>
+      <pubDate>Tue, 01 May 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-05-01T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Web Browser</title>
+      <link>mrmachd.ir/blog/post/Web_Browser</link>
+      <description>&lt;p&gt;There are abundant choices for browsing the web these days. It has come to my attention that I should perhaps prepare my site to look and feel pleasant regardless of the visitor's web browser. I usually use &lt;a href=&quot;http://www.apple.com/safari/&quot;&gt;Safari&lt;/a&gt; and sometimes &lt;a href=&quot;http://www.mozilla.org/en-US/firefox/fx/&quot;&gt;Firefox&lt;/a&gt;, but to be comprehensive I tested &lt;a href=&quot;http://windows.microsoft.com/en-US/internet-explorer/products/ie/home&quot;&gt;Internet Explorer 9.0.8112.16421&lt;/a&gt;, &lt;a href=&quot;https://tools.google.com/dlpage/chromesxs&quot;&gt;Chrome 180.1.1025.40 canary&lt;/a&gt; and &lt;a href=&quot;http://www.opera.com/browser/&quot;&gt;Opera 11.63&lt;/a&gt; for good measures too.&lt;/p&gt;
+&lt;p&gt;I knew in advance that the site is standards compliant and should look well and work properly on all major platform's web browsers. The result of my tests revealed that Internet Explorer sadly renders the site worst. Then comes Opera followed closely by Firefox. Chrome (canary) performs comparable to Safari, which is unsurprisingly the best. It should be noted that I develop and test the site using Safari and the fact that it came on top was expected. These empirical results are based completely on how much of the &lt;a href=&quot;http://www.w3.org/&quot;&gt;W3&lt;/a&gt; standards are successfully implemented by each of the above mentioned web browsers or rather their respective vendors.&lt;/p&gt;
+&lt;p&gt;As you may know, Safari and Chrome share the same engine called &lt;a href=&quot;http://www.webkit.org/&quot;&gt;WebKit&lt;/a&gt;, which was developed and open sourced by Apple. WebKit is in active development. Firefox's engine is called Gecko, which contains the remnants of the project started at &lt;a href=&quot;http://en.wikipedia.org/wiki/Netscape_(web_browser)&quot;&gt;Netscape&lt;/a&gt; in the late 90's. Internet Explorer has a proprietary engine developed internally by Microsoft and Opera's engine is called Presto. The engines I have mentioned so far refer to the underlaying libraries and frameworks that are responsible for laying out the DOM elements of a web page. Each of these browsers comes with its own respective JavaScript engine, but for the time being I'm not going to delve deeper into those details.&lt;/p&gt;
+&lt;p&gt;The best web browsers right now are WebKit based browsers (like Safari or Chrome), simply because you'll view the sites the exact way their developers have intended you to experience them. There certainly are obvious advantageous and disadvantageous to using any specific web browser, which ultimately boils down to an individual's taste and opinion. I emphasise on using a WebKit browser, because whilst they are the most standards compliant of the bunch, they also provide the most features one could seek. For instance, the elastic scrolling specific to Safari on OS X and iOS is only available on Chrome. You might argue that is not part of W3's standards for a web browser to have such feature. True, but wouldn't you like your web browser to incorporate that feature too? In this very site, I have made extensive use of dynamically loaded lists of posts and designs for saving bandwidth and providing a richer user experience. This works very much like Twitter's or Facebook's endless stream of content, where by reaching the bottom of the page a command is automatically initiated to append more content to that page. Here, you won't be able to see more than the initial posts or designs loaded, if:&lt;/p&gt;
+&lt;ol&gt;
+  &lt;li&gt;your screen resolution is high enough that such initial load of data won't enable the vertical scrollbars on your web browser, and&lt;/li&gt;
+  &lt;li&gt;your web browser lacks the aforementioned elastic scrolling feature.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;Other sites rectify this situation by either:&lt;/p&gt;
+&lt;ol class=&quot;alphabetical&quot;&gt;
+  &lt;li&gt;load an initial list of content that is long enough that guarantees visitor's web browser to enable the vertical scrollbars, or&lt;/li&gt;
+  &lt;li&gt;instead of loading more content dynamically via a scroll that reaches the end of the page, rely on a 'more' button or link that visitors are forced to click if they want to see more.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;These are unintuitive ways of addressing this issue. I could provide a 'more' button or link for web browsers that lack these features, but I decided to avoid that and write a post to perhaps convince many of you that still use other web browsers why you should try a WebKit based browser. In the not so distant future, I will come back to this topic of web browsers and discuss the various JavaScript engines in more details.&lt;/p&gt;
+
+
+</description>
+      <pubDate>Fri, 18 May 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-05-18T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Port to HTML5</title>
+      <link>mrmachd.ir/blog/post/Port_to_HTML5</link>
+      <description>&lt;p&gt;I have completed a port of the entire site from XHTML4 to HTML5. An important problem I had with XHTML4 was the additional &lt;span class=&quot;code&quot;&gt;xmlns=”http://www.w3.org/1999/xhtml”&lt;/span&gt; attribute it was adding to elements of every template, page and field of the site. Thankfully, HTML5 is freeing me from all that.&lt;/p&gt;
+&lt;p&gt;However, HTML5 has caused some issues at the beginning. It didn't like my single empty elements, such as &lt;span class=&quot;code&quot;&gt;&amp;lt;div class=&quot;blah&quot;/&amp;gt;&lt;/span&gt; or &lt;span class=&quot;code&quot;&gt;&amp;lt;span id=&quot;dah&quot;/&amp;gt;&lt;/span&gt;. Yes, I miss the XML niceties of XHTML4. &quot;Don't worry, XHTML5 is on its way!&quot; I hear you saying. But, HTML5 has its own advantages too. A &amp;lt;br&amp;gt; without a slash is so comfortable. I have seen enough of HTML5 to adapt and stick to it for the foreseeable future. That is, until HTML6 comes along.&lt;/p&gt;
+
+
+</description>
+      <pubDate>Wed, 30 May 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-05-30T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>WWDC 2012</title>
+      <link>mrmachd.ir/blog/post/WWDC_2012</link>
+      <description>&lt;p&gt;I have even surprised myself. I am much more excited about iOS 6.0 than OS X Mountain Lion. There are so many useful things coming to iOS that I don't know where or what to begin with. First, let me address the presentation. What was that boxing noise during Philip Schiller's presentation? I could not suppress it! It seems that another microphone was left on elsewhere and the person carrying it was moving, bumping or breathing into it. I cannot wait for the day we make commercial use of wireless microphones. By wireless microphones I don't mean the ones that consist of transmitters and transreceivers, but rather the ones used for reconnaissance purposes. Anyway, I am going on a tangent, the presentation was overall very smooth.&lt;/p&gt;
+&lt;p&gt;What a nice piece of art and engineering. Of course, I am talking about the newly announced Macbook Pro. The side-grills look aesthetically pleasing. Currently, retina display on a laptop does not sound particularly intriguing. As the resolution increases, so does the demand of battery and GPU. In such scenario, the heat becomes an issue of concern too.&lt;/p&gt;
+&lt;p&gt;I like the new Xcode as just another application a lot. Albeit being skeptical at the beginning, I've come to believe that this might be the best solution to fit a large set of tools in a single and easily upgradable package.&lt;/p&gt;
+&lt;p&gt;The addition of new object and expression literals makes for much more readable code. The &lt;span class=&quot;code&quot;&gt;@synthesize&lt;/span&gt; statements in class implementations are no longer required. Another compiler optimization, especially for library publishers, is the ability to define a privately consumed method after the first call to it occurs in the implementation file. Therefore, avoiding the risk of exposing the private interface to the public by mentioning it in the header file or even being required to define that method prior to usage in the implementation file.&lt;/p&gt;
+&lt;p&gt;Finally, constraint based layouts are coming to iOS. They are undoubtedly more useful in a mobile environment, because iOS is running on a varity of hardware sizes, screen dimensions and resolutions. Not to mention that every time these devices change orientation, all UI elements have to adjust themselves accordingly. The introduction of such feature might incentivize many application developers to support alternative localizations too.&lt;/p&gt;
+
+
+</description>
+      <pubDate>Wed, 27 Jun 2012 13:00:00 +0430</pubDate>
+      <dc:date>2012-06-27T13:00:00+04:30</dc:date>
+    </item>
+    <item>
+      <title>Experiments</title>
+      <link>mrmachd.ir/blog/post/Experiments</link>
+      <description>&lt;p&gt;After a while of having &quot;no experiments available yet.&quot; in the &lt;a href=&quot;/experiments.html&quot;&gt;experiments&lt;/a&gt; section of the site, I have updated it with several of my open source projects.&lt;/p&gt;
+&lt;p&gt;They are written in many programming languages, some of which work across multiple platforms like those written in Java or Python. Others are OS X specific, like those written in Objective-C. If one of them depends on some library or framework, those are mentioned in its prerequisites sub-section.&lt;/p&gt;
+&lt;p&gt;Hope you enjoy the new experiments section, as it offers something for everybody; plus it's free. I will update it with more of my open source projects, as they are being developed. Finally, if any of those experiments has been of great value to you, I happily accept donations too.&lt;/p&gt;
+
+
+</description>
+      <pubDate>Tue, 21 May 2013 13:00:00 +0430</pubDate>
+      <dc:date>2013-05-21T13:00:00+04:30</dc:date>
+    </item>
+    <dc:date>2013-05-21T13:00:00+04:30</dc:date>
+  </channel>
+</rss>
