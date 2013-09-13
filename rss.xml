@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:dc="http://purl.org/dc/elements/1.1/"
-  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
-  version="2.0"
+<rss version="2.0"
   xmlns:trackback="http://madskills.com/public/xml/rss/module/trackback/"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
   xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>MrmacHD &gt; blog</title>
     <link>mrmachd.ir</link>
     <description>RSS feed for MrmacHD &gt; blog</description>
-    <pubDate>Tue, 21 May 2013 13:00:00 +0430</pubDate>
+    <pubDate>Thu, 12 Sep 2013 13:00:00 +0430</pubDate>
     <item>
       <title>Greetings</title>
       <link>mrmachd.ir/blog/post/Greetings</link>
@@ -119,6 +119,15 @@
       <pubDate>Tue, 21 May 2013 13:00:00 +0430</pubDate>
       <dc:date>2013-05-21T13:00:00+04:30</dc:date>
     </item>
-    <dc:date>2013-05-21T13:00:00+04:30</dc:date>
+    <item>
+      <title>Template Post</title>
+      <link>mrmachd.ir/blog/post/Template_Post</link>
+      <description>&lt;p&gt;This is a blank template post.&lt;/p&gt;
+
+</description>
+      <pubDate>Thu, 12 Sep 2013 13:00:00 +0430</pubDate>
+      <dc:date>2013-09-12T13:00:00+04:30</dc:date>
+    </item>
+    <dc:date>2013-09-12T13:00:00+04:30</dc:date>
   </channel>
 </rss>
