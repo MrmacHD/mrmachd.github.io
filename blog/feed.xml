@@ -28,8 +28,8 @@
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Experiments</guid>
         <description><![CDATA[ <p>After a while of having "no experiments available yet." in the <a href="/experiments.html">experiments</a> section of the site, I have updated it with several of my open source projects.</p>
-<p>They are written in many programming languages, some of which work across multiple platforms like those written in Java or Python. Others are OS X specific, like those written in Objective-C. If one of them depends on some library or framework, those are mentioned in its prerequisites sub-section.</p>
-<p>Hope you enjoy the new experiments section, as it offers something for everybody; plus it's free. I will update it with more of my open source projects, as they are being developed. Finally, if any of those experiments has been of great value to you, I happily accept donations too.</p> <p><a href="http://www.mrmachd.ir/blog/category/site/">site</a> <a href="http://www.mrmachd.ir/blog/category/experiments/">experiments</a> </p> ]]></description>
+<p>They are written in many programming languages, some of which work across multiple platforms like those written in Java or Python. Others are OS X specific, like those written in Objective-C.</p>
+<p>Hope you enjoy the new experiments section, as it offers something for everybody; plus it's free. I will update it with more of my open source projects, as they are being developed.</p> <p><a href="http://www.mrmachd.ir/blog/category/site/">site</a> <a href="http://www.mrmachd.ir/blog/category/experiments/">experiments</a> </p> ]]></description>
         <category>site</category><category>experiments</category>
     </item>
     
