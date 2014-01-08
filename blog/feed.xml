@@ -10,7 +10,7 @@
     <title xml:lang="en">MrmacHD > blog</title>
     <atom:link type="application/atom+xml" href="http://www.mrmachd.ir/blog/feed.xml" rel="self"/>
     <link>http://www.mrmachd.ir</link>
-    <pubDate>Tue, 21 May 2013 00:00:00 +0430</pubDate>
+    <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
     <copyright>© MrmacHD 2013</copyright>
     <description>Applications, Designs and Experiments of MrmacHD</description>
     <image>
@@ -24,7 +24,7 @@
     <item>
         <title>Experiments</title>
         <link>http://www.mrmachd.ir/blog/post/Experiments</link>
-        <pubDate>Tue, 21 May 2013 00:00:00 +0430</pubDate>
+        <pubDate>Tue, 21 May 2013 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Experiments</guid>
         <description><![CDATA[ <p>After a while of having "no experiments available yet." in the <a href="/experiments.html">experiments</a> section of the site, I have updated it with several of my open source projects.</p>
@@ -36,7 +36,7 @@
     <item>
         <title>WWDC 2012</title>
         <link>http://www.mrmachd.ir/blog/post/WWDC_2012</link>
-        <pubDate>Wed, 27 Jun 2012 00:00:00 +0430</pubDate>
+        <pubDate>Wed, 27 Jun 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/WWDC_2012</guid>
         <description><![CDATA[ <p>I have even surprised myself. I am much more excited about iOS 6.0 than OS X Mountain Lion. There are so many useful things coming to iOS that I don't know where or what to begin with. First, let me address the presentation. What was that boxing noise during Philip Schiller's presentation? I could not suppress it! It seems that another microphone was left on elsewhere and the person carrying it was moving, bumping or breathing into it. I cannot wait for the day we make commercial use of wireless microphones. By wireless microphones I don't mean the ones that consist of transmitters and transreceivers, but rather the ones used for reconnaissance purposes. Anyway, I am going on a tangent, the presentation was overall very smooth.</p>
@@ -50,7 +50,7 @@
     <item>
         <title>Port to HTML5</title>
         <link>http://www.mrmachd.ir/blog/post/Port_to_HTML5</link>
-        <pubDate>Wed, 30 May 2012 00:00:00 +0430</pubDate>
+        <pubDate>Wed, 30 May 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Port_to_HTML5</guid>
         <description><![CDATA[ <p>I have completed a port of the entire site from XHTML4 to HTML5. An important problem I had with XHTML4 was the additional <span class="code">xmlns=”http://www.w3.org/1999/xhtml”</span> attribute it was adding to elements of every template, page and field of the site. Thankfully, HTML5 is freeing me from all that.</p>
@@ -61,7 +61,7 @@
     <item>
         <title>Web Browser</title>
         <link>http://www.mrmachd.ir/blog/post/Web_Browser</link>
-        <pubDate>Fri, 18 May 2012 00:00:00 +0430</pubDate>
+        <pubDate>Fri, 18 May 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Web_Browser</guid>
         <description><![CDATA[ <p>There are abundant choices for browsing the web these days. It has come to my attention that I should perhaps prepare my site to look and feel pleasant regardless of the visitor's web browser. I usually use <a href="http://www.apple.com/safari/">Safari</a> and sometimes <a href="http://www.mozilla.org/en-US/firefox/fx/">Firefox</a>, but to be comprehensive I tested <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home">Internet Explorer 9.0.8112.16421</a>, <a href="https://tools.google.com/dlpage/chromesxs">Chrome 180.1.1025.40 canary</a> and <a href="http://www.opera.com/browser/">Opera 11.63</a> for good measures too.</p>
@@ -84,7 +84,7 @@
     <item>
         <title>Designs</title>
         <link>http://www.mrmachd.ir/blog/post/Designs</link>
-        <pubDate>Tue, 01 May 2012 00:00:00 +0430</pubDate>
+        <pubDate>Tue, 01 May 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Designs</guid>
         <description><![CDATA[ <p>After a while of having "no designs available yet." in the <a href="/designs.html">designs</a> section of the site, I decided to fix that by displaying some of my recent 2D and 3D CGIs (computer generated imagery).</p>
@@ -96,7 +96,7 @@
     <item>
         <title>Accelerometer updated for all Symbian^3 devices</title>
         <link>http://www.mrmachd.ir/blog/post/Accelerometer_updated_for_all_Symbian%5E3_devices</link>
-        <pubDate>Fri, 20 Apr 2012 00:00:00 +0430</pubDate>
+        <pubDate>Fri, 20 Apr 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Accelerometer_updated_for_all_Symbian%5E3_devices</guid>
         <description><![CDATA[ <p>This update was long overdue. As I hinted in an earlier <a href="/blog/post/Accelerometer_for_iOS/">post</a>, since I published the iOS version of Accelerometer, I was thinking about bringing some of its features back to the Symbian version of the application.</p>
@@ -109,7 +109,7 @@
     <item>
         <title>Accelerometer for iOS</title>
         <link>http://www.mrmachd.ir/blog/post/Accelerometer_for_iOS</link>
-        <pubDate>Thu, 05 Apr 2012 00:00:00 +0430</pubDate>
+        <pubDate>Thu, 05 Apr 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Accelerometer_for_iOS</guid>
         <description><![CDATA[ <p>I have published my first iOS application <a href="http://itunes.apple.com/gb/app/accelerometer-for-ios/id514052951?mt=8">Accelerometer for iOS</a>. It's development has been completed many months ago, but I never came around publishing it to the App Store. You can find more information as well as some tips and tricks about the application on its <a href="/applications/ios/accelerometer.html">dedicated site</a>.</p>
@@ -122,7 +122,7 @@
     <item>
         <title>Greetings</title>
         <link>http://www.mrmachd.ir/blog/post/Greetings</link>
-        <pubDate>Mon, 26 Mar 2012 00:00:00 +0430</pubDate>
+        <pubDate>Mon, 26 Mar 2012 00:00:00 +0000</pubDate>
         <author>MrmacHD</author>
         <guid isPermaLink="true">http://www.mrmachd.ir/blog/post/Greetings</guid>
         <description><![CDATA[ <p>Hi and welcome to my new site. This is my latest web development project and I hope to keep it up and running as long as I'm alive. It's a good way of keeping a journal as well as sharing thoughts with other likeminded people.</p>
