@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:sparkle="http://www.andymatuschak.org/xml-namespaces/sparkle"
+  xmlns:dc="http://purl.org/dc/elements/1.1/">
+   <channel>
+      <title>Sun update test</title>
+      <link>http://www.mrmachd.ir/applications/osx/sun_updates.xml</link>
+      <description>Sun is an OS X utility application. It is plain and simple a secondary calendar besides the one under OS X Clock menu. People in different parts of the world use different calendars. Some people even need two or more calendars in order to work on a daily basis. Sun should help anyone who needs that secondary calendar right besides the OS X default calendar.</description>
+      <language>en</language>      
+         <item>
+            <title>Sun 1.0.0</title>
+            <description>
+              <p>initial release</p>
+              <p>for os x 10.8 or higher</p>
+            </description>
+            <pubDate>Thu, 06 Feb 2014 00:00:00 +0000</pubDate>
+            <sparkle:releaseNotesLink>http://www.mrmachd.ir/applications/osx/sun_notes.html</sparkle:releaseNotesLink>
+            <enclosure url="https://dl.dropboxusercontent.com/s/o6sn7ccacw9wele/Sun_1.0.0.zip?dl=1"
+              sparkle:version="1.0.0"
+              sparkle:dsaSignature="MCwCFCOVBl6fpTg2uuxpDnoP/8+f96b6AhQEXVaNW41avMtvkspSpkXLKmS2oA=="
+              length="7737384"
+              type="application/octet-stream" />
+         </item>
+   </channel>
+</rss>
